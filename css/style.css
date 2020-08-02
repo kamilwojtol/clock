@@ -1,0 +1,61 @@
+/* General Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Containers */
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.clock__container {
+  margin-top: 20%;
+  text-align: center;
+}
+
+/* Logo */
+
+.header__logo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  padding: 10px;
+}
+
+/* Timer */
+
+.clock__timer {
+  font-size: 8rem;
+}
+
+/* Greeting */
+
+.greeting {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+
+/* Quote */
+
+.quote {
+  margin-top: 10rem;
+  bottom: 100%;
+}
+
+.quote__text {
+  font-weight: 800;
+}
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+  .header__logo {
+    text-align: center;
+  }
+}
