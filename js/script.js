@@ -21,7 +21,7 @@ function setTime() {
   function setGreeting() {
     if (hours > 5 && hours <= 11) {
       greeting.innerText = "Miłego poranka!";
-    } else if (hours > 12 && hours <= 17) {
+    } else if (hours >= 12 && hours <= 17) {
       greeting.innerText = "Miłego dnia!";
     } else {
       greeting.innerText = "Miłego wieczoru!";
@@ -77,5 +77,5 @@ function setQuotes() {
   quoteAuthor.textContent = quotes[randomQuote].author;
 }
 
-setInterval(setTime, 500);
+setInterval(setTime, 1000);
 setQuotes();
